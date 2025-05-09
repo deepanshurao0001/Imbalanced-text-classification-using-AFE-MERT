@@ -1,0 +1,4 @@
+This project tackles the challenge of imbalanced text classification by implementing the AFE-MERT (Adaptive Feature Extraction with Modified Entropy-based Reweighting Technique) method. Traditional classifiers often struggle with minority classes in imbalanced datasets, leading to biased predictions. AFE-MERT addresses this by adjusting feature importance using class-frequency-aware reweighting, improving model sensitivity to underrepresented classes.
+
+We utilize the 20 Newsgroups dataset and compare AFE-MERT's performance with standard feature extraction techniques using models like Random Forest. Experiments show that AFE-MERT improves classification accuracy, especially for minority classes, while maintaining overall performance. The project includes a visualization of accuracy across different AFE-MERT hyperparameter values (p), highlighting its robustness.
+
